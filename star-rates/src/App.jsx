@@ -1,4 +1,4 @@
-import { useState } from 'react'
+//import React  from 'react';
 import StarRating from './components/starrating';
 
 import './App.css'
@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   
 
-  return <StarRating/>;
+  return <StarRating noOfStars={10}/>;
 }
 
 export default App;
